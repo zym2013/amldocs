@@ -1,0 +1,30 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "Amazing Luogu"
+  text: "使用文档"
+  tagline: 一个增强洛谷的插件
+  image:
+    src: https://cdn.luogu.com.cn/upload/image_hosting/9hmp9jxr.png?x-oss-process=image/resize,m_lfit,h_200,w_255/circle,r_100/format,png
+    alt: Amazing Luogu Logo
+  actions:
+    - theme: brand
+      text: 获取插件
+      link: /hello.md
+    - theme: alt
+      text: 使用说明
+      link: /info.md
+
+features:
+  - title: 功能多样
+    details: 拥有多种功能，满足你的需求。
+  - title: 界面友好
+    details: 支持开关功能，支持详细设置。
+  - title: 快速便捷
+    details: 设置导入导出，避免重复设置。
+---
+
+<HomeUnderline />
+<confetti />
